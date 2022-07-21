@@ -1,9 +1,5 @@
 import styled from '@emotion/styled';
 
-export const Container = styled.div`
-  padding: 25px;
-`;
-
 export const ItemButton = styled.ul`
   margin-top: 15px;
   margin-bottom: 15px;
