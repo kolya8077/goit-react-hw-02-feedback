@@ -3,15 +3,12 @@ import styled from '@emotion/styled';
 export const ItemButton = styled.ul`
   margin-top: 15px;
   margin-bottom: 15px;
-  display: flex;
-  justify-content: space-between;
-  width: 185px;
 `;
 
 export const Button = styled.button`
   display: inline-block;
   box-sizing: border-box;
-  padding: 0 10px;
+  padding: 5px 10px;
   outline: none;
   border: 1px solid #fff;
   border-radius: 50px;
@@ -34,5 +31,9 @@ export const Button = styled.button`
   :active {
     background-color: #00379c;
     color: #fff;
+  }
+
+  :not(:last-child) {
+    margin-right: 5px;
   }
 `;
